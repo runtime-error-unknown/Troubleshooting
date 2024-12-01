@@ -1,0 +1,85 @@
+# Laptop Troubleshooting
+
+## Problem Statement
+
+User reported a slow laptop with multiple system errors.
+
+## Initial Symptoms
+* Firefox showed "already running" error messages
+* Start menu became unresponsive after 5 minutes
+* Cisco displayed connection errors
+* Overall system sluggishness
+
+## System Specifications
+```
+Model: Lenovo IdeaPad Flex 5
+CPU: AMD Ryzen 7
+RAM: 8GB
+Storage: 512GB
+OS: Windows 10 Home
+```
+
+## Diagnostic Process
+
+### Step 1: Data Protection
+* Created full system image backup
+* Separately backed up user files
+* Verified backup integrity
+
+### Step 2: Initial Investigation
+Found multiple issues:
+* Active Neshta virus infection
+* Outdated BIOS version
+* Hardware cooling problems
+
+### Step 3: First Attempt
+Running virus removal tools led to:
+* System lockup
+* Login errors `0xc000006d` and `0xc00000e5`
+* Failed safe mode access
+* Unsuccessful system restore
+
+### Step 4: Hardware Inspection
+Physical examination revealed:
+* Dust-clogged exhaust vents
+* Dried thermal compound
+* Inadequate CPU cooling
+
+### Step 5: Hardware Fixes
+1. Disassembled laptop
+2. Cleaned all vents
+3. Applied new thermal paste
+4. Replaced CPU cooler
+5. Reassembled system
+
+### Step 6: Software Recovery
+1. Downloaded official Lenovo recovery media (`5R31C78926`)
+2. Performed clean Windows 10 installation
+3. Created a new restore point
+4. Installed essential drivers
+5. Restored user applications
+
+### Step 7: Data Recovery
+* Scanned backup drive for malware
+* Restored user files
+* Uploaded critical data to OneDrive
+
+## Resolution
+* System performance restored
+* All error messages resolved
+* Temperature readings normal
+* user confirmed satisfaction
+
+## Lessons Learned
+1. Start with running a virus scan
+2. Check both hardware and software
+3. Create verified backups before major changes
+4. Physical maintenance is crucial
+5. Clean installation may be better than troubleshooting when dealing with certain malware
+6. Document all steps for future reference
+
+## Preventive Recommendations
+* Schedule regular vent cleaning
+* Monitor system temperatures
+* Keep Windows and BIOS updated
+* Maintain current backups
